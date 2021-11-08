@@ -9,8 +9,10 @@ body{
 
 nav{
   display: flex;
+  padding: 20px 0;
   list-style: none;
-  justify-content: space-between;
+  justify-content: space-around;
+  background-color: transparent;
 }
 
 nav ul {
@@ -22,7 +24,7 @@ nav ul {
 }
 
 nav ul li a {
-  display: flex;
+  color: aliceblue;
   text-decoration: none;
 }
 
