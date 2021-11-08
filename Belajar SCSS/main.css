@@ -1,12 +1,32 @@
-header {
-  background-color: blue;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-header h1 {
-  font-size: 3rem;
+body{
+  font-family: sans-serif;
 }
 
-p {
+nav{
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  width: 25%;
+  list-style: none;
+  font-size: 12pt;
+}
+
+nav ul li a {
+  display: flex;
+  text-decoration: none;
+}
+
+  p {
   color: salmon;
 }
 /*# sourceMappingURL=main.css.map */
