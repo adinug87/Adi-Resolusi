@@ -66,15 +66,15 @@ nav ul li a {
   justify-content: flex-end;
 }
 
-.content {
-  display: flex;
-  justify-content: space-around;
-  width: auto;
-  padding-top: 180px;
-  padding: 180px 250px 0px;
+.hero-bg {
   background-image: url(img/Pattern\ Overlay.png);
   background-repeat: no-repeat;
   background-size: cover;
+}
+.content {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 150px;
 }
 
 /*# sourceMappingURL=main.css.map */
