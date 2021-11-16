@@ -4,21 +4,54 @@
 }
 
 body{
-  font-family: sans-serif;
+  font-family: 'Merriweather', serif;
+  color: aliceblue;
 }
 
-nav{
-  display: flex;
-  padding: 20px 0;
-  list-style: none;
-  justify-content: space-around;
+.container {
+  max-width: 1140px;
+  width: 100%;
+  padding: 0 1rem;
+  margin: 0 auto;
+}
+
+nav {
+  position: fixed;
   background-color: transparent;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+nav .logo{
+  width: 32px;
+  height: 32px;
+}
+
+nav .container{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+  height: 80px;
+  list-style: none;
+}
+
+.text-content .headline {
+  font-size: 100px;
+  font-weight: 700;
+  line-height: 110px;
+}
+
+.text-content .tagline {
+  font-size: 24px;
+  font-weight: 400;
+  margin-top: 10px;
 }
 
 nav ul {
   display: flex;
   justify-content: space-between;
-  width: 25%;
+  gap: 25px;
   list-style: none;
   font-size: 12pt;
 }
@@ -28,7 +61,20 @@ nav ul li a {
   text-decoration: none;
 }
 
-  p {
-  color: salmon;
+.menu {
+  display: flex;
+  justify-content: flex-end;
 }
+
+.content {
+  display: flex;
+  justify-content: space-around;
+  width: auto;
+  padding-top: 180px;
+  padding: 180px 250px 0px;
+  background-image: url(img/Pattern\ Overlay.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 /*# sourceMappingURL=main.css.map */
