@@ -7,7 +7,7 @@
 	<link rel="stylesheet" href="main.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Roboto:wght@300&display=swap" rel="stylesheet">
 	<title>Personal Portfolio</title>
 </head>
 <body>
@@ -23,39 +23,51 @@
 	</nav>
 	<main>
 		<div class="hero-bg">
-		<div class="container content">
+			<div class="container content">
 				<div class="text-content">
-					<p class="headline">Michael<br>&nbsp;&nbsp;Ballack</p>
+					<h1 class="headline">Michael<br>&nbsp;&nbsp;Ballack</h1>
 					<p class="tagline">Design is not only art, but a problem solver too</p>
 				</div>
-				<img class="img-profile" src="img/Photo.png">
+				<div class="profile">
+					<div class="border-profile-bottom"></div>
+					<img class="img-profile" src="img/Photo.png">
+					<div class="border-profile-top"></div>
+					<div class="button-frontend"><p>FRONTEND DEV</p></div>
+					<div class="button-backend"><p>BACKEND DEV</p></div>
+				</div>
+			</div>
 		</div>
-	</div>
-		<div class="title">
-			<h2>Portfolio</h2>
-		</div>
-		<div class="tab-menu">
-			<ul>
-				<li><a href="">User Interface</a></li>
-				<li><a href="">HTML/CSS/JS</a></li>
+		<h2 class="title container">Portfolio</h2>
+		<p>
+			<ul class="tab-galery container">
+				<li><a class="tab-active" href="#">User Interface</a></li>
+				<li><a href="#">HTML/CSS/JS</a></li>
 			</ul>
-		</div>
-		<div class="galery">
-			<img src="">
+		</p>
+		<div class="container">
+			<ul class="galery">
+				<li><img class="galery-item" src="img/Portfolio List 1.jpg" alt=""></li>
+				<li><img class="galery-item" src="img/Portfolio List 2.jpg" alt=""></li>
+				<li><img class="galery-item" src="img/Portfolio List 3.jpg" alt=""></li>
+				<li><img class="galery-item" src="img/Portfolio List 4.jpg" alt=""></li>
+				<li><img class="galery-item" src="img/Portfolio List 5.jpg" alt=""></li>
+				<li><img class="galery-item" src="img/Portfolio List 6.jpg" alt=""></li>
+			</ul>
 		</div>
 	</main>
 	<footer>
-		<div class="footer-heading">
-			<h1>Contact Me</h1>            
-		</div>
-		<p>Give me a shoot, then we will talk about your project</p>
-		<div class="footer-contact">
-			<p>michael.ballack@gmail.com</p>
-			<p>+71 354 789 565</p>
-		</div>
-		<div class="copyright">
-			<p>Allright reserved by me</p>
-		</div>
-	</footer>
-</body>
-</html>
+		<div class="container">
+			<div class="footer-header">
+				<img class="logo" src="img/Logo.svg" alt="logo-brand">
+				<h1>Contact Me</h1>            
+				<p>Give me a shoot, then we will talk about your project</p>
+			</div>
+			<div class="footer-contact">
+				<h2>michael.ballack@gmail.com<br>
+					+71 354 789 565</h2>
+				</div>
+				<p class="copyright">@2021 Personal Portfolio. Design by Mas Yusak -Profile Image Studio</p>
+			</div>
+		</footer>
+	</body>
+	</html>
