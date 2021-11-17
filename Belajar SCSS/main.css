@@ -80,12 +80,13 @@ nav ul li a {
   background-size: cover;
   height: 100%;
   padding-top: 150px;
+
 }
 
 .content {
   display: flex;
   justify-content: space-around;
-  
+  max-width: 1140px;
 }
 
 .text-content .headline {
