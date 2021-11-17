@@ -28,12 +28,15 @@ ul {
   margin: 0 auto;
 }
 
+/* navbar section */
+
 nav {
   position: fixed;
   background-color: transparent;
   top: 0;
   left: 0;
   right: 0;
+  z-index: 10;
 }
 
 .logo{
@@ -49,19 +52,6 @@ nav .container{
   list-style: none;
 }
 
-.text-content .headline {
-  font-size: 100px;
-  font-weight: 700;
-  line-height: 110px;
-}
-
-.text-content .tagline {
-  font-size: 24px;
-  font-weight: 400;
-  margin-top: 10px;
-  font-family: "Roboto";
-}
-
 nav ul {
   display: flex;
   justify-content: space-between;
@@ -75,10 +65,14 @@ nav ul li a {
   text-decoration: none;
 }
 
-.menu {
+/* .menu {
   display: flex;
   justify-content: flex-end;
-}
+} */
+
+/* end of navbar section */
+
+/* hero section */
 
 .hero-bg {
   background-image: url(img/Pattern\ Overlay.png);
@@ -92,6 +86,23 @@ nav ul li a {
   display: flex;
   justify-content: space-around;
   
+}
+
+.text-content .headline {
+  font-size: 100px;
+  font-weight: 700;
+  line-height: 110px;
+}
+
+.text-content .tagline {
+  font-size: 24px;
+  font-weight: 400;
+  margin-top: 10px;
+  font-family: "Roboto";
+}
+
+.content .text-content {
+  margin-top: 10vh;
 }
 
 .profile {
@@ -136,6 +147,18 @@ nav ul li a {
   border-radius: 8px;
 }
 
+.profile .button-backend p {
+  padding: 20px 20px;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.profile .button-frontend p {
+  padding: 20px 20px;
+  font-size: 24px;
+  font-weight: 700;
+}
+
 .content .button-backend {
   position:absolute;
   height: 73px;
@@ -157,6 +180,10 @@ nav ul li a {
   
 }
 
+/* end of hero section */
+
+/* portfolio section */
+
 .title {
   display: flex;
   justify-content: center;
@@ -169,8 +196,8 @@ nav ul li a {
   list-style: none;
   display: flex;
   justify-content: center;
-  gap: 75px;
-  margin-top: 20px;
+  gap: 50px;
+  margin-top: 50px;
   font-size: 20px;
   font-weight: 300;
 }
@@ -201,6 +228,10 @@ ul li .galery-item {
   border-radius: 15px;
   object-fit: cover;
 }
+
+/* end of portfolio section */
+
+/* footer section */
 
 footer {
   margin-top: 100px;
