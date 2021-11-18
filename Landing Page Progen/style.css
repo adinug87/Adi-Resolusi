@@ -3,7 +3,7 @@
   margin: 0;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 
 body {
   font-family: 'Poppins', sans-serif;
@@ -165,3 +165,23 @@ nav .button-auth li a:hover {
 }
 
 /* End of hero section */
+
+.flow-section {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+}
+
+.flow-section .accent-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: #FFA800;
+}
+
+.flow-section .section-title {
+  font-size: 36px;
+  font-weight: 500;
+  color: #102160;
+  text-align: center;
+}
