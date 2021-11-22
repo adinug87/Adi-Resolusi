@@ -230,11 +230,11 @@ nav .button-auth li a:hover {
 
 .flow-text {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   text-align: center;
   position: absolute;
   top: 80%;
-  gap: 150px;
+  column-gap: 110px;
 }
 
 .content .flow-text .flow-text-title {
