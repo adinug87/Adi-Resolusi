@@ -55,6 +55,19 @@ nav {
 
 }
 
+.button {
+  background-color: #3056E0;
+  border: 2px solid #3056E0;
+  border-radius: 5px;
+  padding: 15px 20px;
+  color: #ffffff;
+  max-width: 58px;
+  width: 100%;
+  text-align: center;
+  font-size: 16px;
+  letter-spacing: 0,3px;
+}
+
 nav .nav-content {
   display: flex;
   justify-content: space-between;
@@ -152,7 +165,7 @@ nav .button-auth li a:hover {
   line-height: 150%;
 }
 
-.hero .button {
+.hero .button-hero {
   background-color: #3056E0;
   border: 2px solid #3056E0;
   border-radius: 5px;
@@ -165,6 +178,16 @@ nav .button-auth li a:hover {
   font-size: 16px;
   letter-spacing: 0,3px;
   font-weight: 500;
+}
+
+.hero .button-hero:hover {
+  background-color: transparent;
+  border: 2px solid #3056E0;
+  border-radius: 5px;
+  padding: 15px 20px;
+  color: #3056E0;
+  cursor: pointer;
+  font-weight: 600;
 }
 
 .hero .img-hero {
@@ -319,7 +342,8 @@ nav .button-auth li a:hover {
 .feature-section {
   display: flex;
   justify-content: space-between;
-  margin-top: 35vh;
+  margin-top: 5%;
+  padding: 2rem;
 }
 
 .feature-section .feature-text {
@@ -331,6 +355,11 @@ nav .button-auth li a:hover {
   font-size: 36px;
   font-weight: 600;
   margin-top: 3%;
+}
+
+.feature-section .feature-text .flow-text-desc{
+  max-width: 600px;
+  width: 100%;
 }
 
 .feature-section .img-feature {
