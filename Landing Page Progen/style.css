@@ -25,6 +25,19 @@ ul li a {
   color: black;
 }
 
+.accent-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: #FFA800;
+}
+
+.flow-text-desc {
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 150%;
+}
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -38,6 +51,7 @@ nav {
   border-bottom: 1px solid rgba(43, 43, 43, 0.3);
   box-shadow: 0 5px 0 0 5px grey;
   color: black;
+  z-index: 10;
 
 }
 
@@ -200,12 +214,12 @@ nav .button-auth li a:hover {
   
 }
 
-.icon-flow {
+/* .icon-flow {
   position: absolute;
   left: 15%;
   bottom: 25%;
   z-index: 3;
-}
+} */
 
 .bg-flow ul {
   display: flex;
@@ -221,32 +235,46 @@ nav .button-auth li a:hover {
   padding-right: 40px;
 }
 
-.icon-flow ul {
+/* .icon-flow ul {
   display: flex;
   justify-content: flex-start;
   column-gap: 200px;
   padding-top: 10px;
-}
+} */
 
-.flow-text {
+.flow-content {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   text-align: center;
   position: absolute;
-  top: 80%;
-  column-gap: 110px;
+  top: 30%;
+  column-gap: 90px;
+  z-index: 5;
 }
 
-.content .flow-text .flow-text-title {
+.flow-content .icn-flow {
+  object-fit: cover;
+  width: 79px;
+  height: auto;
+}
+
+.flow-content .content .icn-flow {
+  margin-bottom: 15px;
+}
+
+.flow-content .content .flow-text-title {
   font-size: 18px;
   font-weight: 600;
+  margin-bottom: 5px;
 }
 
-.content .flow-text .flow-text-desc {
+.flow-content .content .flow-text-desc {
   margin-top: 10px;
   font-size: 14px;
   font-weight: 500;
+  line-height: 150%;
 }
+
 /* .flow-title {
   display: flex;
   justify-content: space-around;
@@ -283,3 +311,31 @@ nav .button-auth li a:hover {
 .flow-desc-item:nth-of-type(4) {
   flex-grow: 1;
 } */
+
+/* End of Flow Section */
+
+/* Feature Section */
+
+.feature-section {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 35vh;
+}
+
+.feature-section .feature-text {
+  padding-top: 5%;
+}
+
+.feature-section .feature-title {
+  color: #102160;
+  font-size: 36px;
+  font-weight: 600;
+  margin-top: 3%;
+}
+
+.feature-section .img-feature {
+  object-fit: cover;
+  max-width: 336px;
+  width: 100%;
+  height: auto;
+}
