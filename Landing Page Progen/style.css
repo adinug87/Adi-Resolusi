@@ -134,6 +134,10 @@ nav .button-auth li a:hover {
   background-color: #3056E0;
 }
 
+a {
+    text-decoration: none;
+}
+
 /* End of navbar section */
 
 /* Hero section */
@@ -368,3 +372,4 @@ nav .button-auth li a:hover {
   width: 100%;
   height: auto;
 }
+
